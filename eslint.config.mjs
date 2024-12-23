@@ -16,7 +16,7 @@ export default [
   eslint.configs.recommended,
   // TypeScript files configuration
   {
-    files: ['**/*.ts', '**/*.tsx'],
+    files: ['**/*.ts', '**/*.tsx', '**/*.{js,jsx}'],
     languageOptions: {
       parser: tsParser,
       parserOptions: {
